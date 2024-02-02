@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "07a773dd-cb22-4984-aced-dbb3ca0d4dc3",
+		"name": "FakeApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17256199"
+	},
+	"item": [
+		{
+			"name": "Get Product Types",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/productTypes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"productTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product Type",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/productTypes/first",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"productTypes",
+						"first"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Product Type",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"packsNumber\": 15,\r\n    \"packageType\": \"компрессия\",\r\n    \"isArchived\": false,\r\n    \"description\": \"Описание продукции\\nВ несколько строк\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/productTypes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"productTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Product Type",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"packsNumber\": 15,\r\n    \"packageType\": \"компрессия\",\r\n    \"isArchived\": false,\r\n    \"description\": \"Описание продукции\\nВ несколько строк\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/productTypes/3tieMHc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"productTypes",
+						"3tieMHc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product Type",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/productTypes/nFgzmZ8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"productTypes",
+						"nFgzmZ8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

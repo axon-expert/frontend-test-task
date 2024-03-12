@@ -31,17 +31,21 @@ npm start
 #### Получение всех типов продукции
 
 Method: GET
+
 URL: http://localhost:8081/productTypes
 
 #### Получение типа продукции по ID
 
 Method: GET
+
 URL: http://localhost:8081/productTypes/{productTypeId}
 
 #### Создание типа продукции
 
 Method: POST
+
 URL: http://localhost:8081/productTypes
+
 Body (пример):
 ```json
 {
@@ -55,7 +59,9 @@ Body (пример):
 #### Редактирование типа продукции
 
 Method: PATCH
+
 URL: http://localhost:8081/productTypes/{productTypeId}
+
 Body (пример):
 ```json
 {
@@ -69,6 +75,7 @@ Body (пример):
 #### Удаление типа продукции
 
 Method: DELETE
+
 URL: http://localhost:8081/productTypes/{productTypeId}
 
 ### Задачи

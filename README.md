@@ -104,7 +104,7 @@ URL: http://localhost:8081/productTypes/{productTypeId}
 
 - id: string
 - packsNumber: number (int)
-- packageType: string (компрессия/компрессия)
+- packageType: string (компрессия/некомпрессия)
 - isArchived: boolean
 - description: string (optional)
 - createdAt: string (ISO date time format)
